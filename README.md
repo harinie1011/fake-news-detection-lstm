@@ -33,6 +33,18 @@ Embedding → LSTM → Dropout → Dense with Sigmoid
 - Maximum epochs: 4, with early stopping
 - Batch size: 32
 
+## Dataset
+
+This project uses the **Fake and Real News Dataset** from Kaggle.
+
+Dataset link: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
+The dataset contains two CSV files:
+- `Fake.csv` — Fake news articles
+- `True.csv` — Real news articles
+
+For this project, a balanced subset of 2,000 news articles was used: 1,000 fake and 1,000 real news articles.
+
 ## Results
 
 | Metric | Score |
